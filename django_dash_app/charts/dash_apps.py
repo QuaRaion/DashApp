@@ -42,7 +42,7 @@ def get_aggregation_functions():
 app.layout = html.Div([
     html.H1("Конструктор графиков", style={'textAlign': 'center'}),
 
-    html.Label("Загрузите файл (CSV):"),
+    html.Label("Загрузите файл (CSV, Excel, Parquet):"),
     dcc.Upload(
         id='upload-data',
         children=html.Button("Загрузить файл"),
@@ -125,6 +125,10 @@ def load_data(contents, filename):
         try:
             if filename.endswith('.csv'):
                 df = pd.read_csv(io.StringIO(decoded.decode('utf-8')))
+            elif filename.endswith('.xlsx'):
+                df = pd.read_excel(io.BytesIO(decoded))
+            elif filename.endswith('.parquet'):
+                df = pd.read_parquet(io.BytesIO(decoded))
             else:
                 return [], [], []
         except Exception as e:
