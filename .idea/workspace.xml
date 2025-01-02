@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a11d6d4-f397-4959-82b6-10a47c0f5d56" name="Changes" comment="Внедрение Dash приложения в Django-проект">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_dash.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/dash_apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/templates/charts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/charts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/django_dash_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/django_dash_app/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/django_dash_app/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/django_dash_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/django_dash_app/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/dark_mode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/nav_sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/nav_sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash-renderer/build/dash_renderer.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash-renderer/build/dash_renderer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/async-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/async-export.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/async-export.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/async-highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/async-highlight.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/async-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/async-table.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/async-table.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/demo.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dash_table/package-info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-datepicker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-dropdown.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-dropdown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-graph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-graph.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-highlight.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-markdown.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-markdown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-mathjax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-slider.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-slider.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/async-upload.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/dash_core_components-shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/dash_core_components-shared.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/dash_core_components-shared.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/dash_core_components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/dash_core_components.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/dash_core_components.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/dcc/package-info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/polyfill@7.12.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/prop-types@15.8.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/prop-types@15.8.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react-dom@16.14.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react-dom@16.14.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react-dom@18.2.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react-dom@18.2.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react-dom@18.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react-dom@18.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react@16.14.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react@16.14.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react@18.2.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react@18.2.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react@18.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/deps/react@18.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/html/dash_html_components.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/html/dash_html_components.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/html/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/dash/html/package-info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/carshare.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/election.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/election.geojson.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/experiment.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/gapminder.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/iris.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/medals.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/stocks.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/tips.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/datasets/wind.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/plotly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/ggplot2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/gridon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/plotly.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/plotly_dark.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/plotly_white.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/presentation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/seaborn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/simple_white.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/xgridoff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dash/component/plotly/package_data/templates/ygridoff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_dash_app/staticfiles/dpd_static_support/js/tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2qZEYiYo6fz1yiQvSxXOKLAIIHF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "assets"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/django_dash_app/charts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a11d6d4-f397-4959-82b6-10a47c0f5d56" name="Changes" comment="" />
+      <created>1734861746907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734861746907</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Внедрение Dash приложения в Django-проект">
+      <option name="closed" value="true" />
+      <created>1734867380530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734867380531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Внедрение Dash приложения в Django-проект">
+      <option name="closed" value="true" />
+      <created>1734868609689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734868609689</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Внедрение Dash приложения в Django-проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внедрение Dash приложения в Django-проект" />
+  </component>
+</project>
